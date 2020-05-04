@@ -1,34 +1,12 @@
-## Welcome to GitHub Pages
+## รายละเอียดโครงงาน
 
-You can use the [editor on GitHub](https://github.com/AOMSK/Compro/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+  โปรเจค Jumping Ball
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### คำอธิบายโครงงาน
 
-### Markdown
+  โครงงานนี้เราทำเกี่ยวกับ Microcontroller โดยจัดทำเป็นเกมส์ที่ใช้ไมโครคอนโทรลเลอร์ (Micro-controller)ในการทำ และใช้ตัว LED Dot Matrix เป็นตัวแสดงผลออกมาพัฒนามาจากเกมส์ Cookie Run และนำมาผสมผสานความคิดสร้างสรรค์ของผู้จัดทำ โดยตัวเกมส์จะแสดงผลออกมาเป็นไฟ LED ของ LED Dot Matrix มีปุ่มคอนโทรลให้เดินหน้า ถอยหลัง กระโดด จะมีสิ่งกีดขวางที่ผู้เล่นจะต้องหลบหลีก ระหว่างทาง เพื่อให้ผู้เล่นจะได้ไม่เบื่อในการเล่นเกมส์ และเพื่อความสนุกสนานของผู้เล่นอีกด้วย
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# รายละเอียดโครงงาน
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
+### Source Code
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AOMSK/Compro/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
