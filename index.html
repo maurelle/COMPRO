@@ -1,108 +1,321 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>JUMPING BALL</title>
-    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+  <title>JUMPINGBALL</title>
+  <!--stylesheet-->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="styles/styles.css" rel="stylesheet" type="text/css">
+  <link href="styles/custom-responsive-styles.css" rel="stylesheet" type="text/css">
+  <!--scripts-->
+  <script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="scripts/all-plugins.js"></script>
+  <script type="text/javascript" src="scripts/plugins-activate.js"></script>
 </head>
-<body>
+
+<body id="page-top">
+  <!-- Navigation -->
+
+  <a class="menu-toggle rounded" href="#">
+    <i class="fa fa-bars"></i>
+  </a>
+  <nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <li class="sidebar-brand">
+        <a class="smooth-scroll" href="#Header"></a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="smooth-scroll" href="#page-top">Home</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="smooth-scroll" href="#About">About</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="smooth-scroll" href="#Services">Services</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="smooth-scroll" href="#Portfolio">Picture</a>
+      </li>
+    </ul>
+  </nav>
+  <!-- Header Starts -->
+  <section id="Banner" class="content-section">
+    <div class="container content-wrap text-center">
+      <h1>Welcome to JumpingBall project</h1>
+      <h3>
+          <em>A Bootstrap Theme to start building a new landing page</em>
+        </h3>
+      <a class="btn btn-primary btn-xl smooth-scroll" href="#About">Find Out More</a>
+    </div>
+    <div class="overlay"></div>
+  </section>
+  <!-- Header Ends -->
+  <!-- About Us Starts -->
+  <section id="About" class="content-section">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="block-heading">
+            <h2>About Project</h2>
+          <p class="lead">โครงงานนี้เราทำเกี่ยวกับ Microcontroller โดยจัดทำเป็นเกมส์ที่ใช้ไมโครคอนโทรลเลอร์ (Micro-controller)
+            ในการทำ และใช้ตัว LED Dot Matrix เป็นตัวแสดงผลออกมาพัฒนามาจากเกมส์ Cookie Run และนำมาผสมผสานความคิดสร้างสรรค์ของผู้จัดทำ
+            โดยตัวเกมส์จะแสดงผลออกมาเป็นไฟ LED ของ LED Dot Matrix มีปุ่มคอนโทรลให้เดินหน้า ถอยหลัง กระโดด จะมีสิ่งกีดขวางที่ผู้เล่นจะต้องหลบหลีก 
+            ระหว่างทาง เพื่อให้ผู้เล่นจะได้ไม่เบื่อในการเล่นเกมส์ และเพื่อความสนุกสนานของผู้เล่นอีกด้วย</p>
+          <h2>Project Description</h2>
+          <p class="lead">โครงงานนี้เราทำเกี่ยวกับ Microcontroller โดยจัดทำเป็นเกมส์ที่ใช้ไมโครคอนโทรลเลอร์ (Micro-controller)
+           ในการทำ และใช้ตัว LED Dot Matrix เป็นตัวแสดงผลออกมาพัฒนามาจากเกมส์ Cookie Run และนำมาผสมผสานความคิดสร้างสรรค์ของผู้จัดทำ
+           โดยตัวเกมส์จะแสดงผลออกมาเป็นไฟ LED ของ LED Dot Matrix มีปุ่มคอนโทรลให้เดินหน้า ถอยหลัง กระโดด จะมีสิ่งกีดขวางที่ผู้เล่นจะต้องหลบหลีก 
+           ระหว่างทาง เพื่อให้ผู้เล่นจะได้ไม่เบื่อในการเล่นเกมส์ และเพื่อความสนุกสนานของผู้เล่นอีกด้วย</p>
+    </div>
+    </div>
+    </div>
+    </div>
+  </section>
+  <!-- About Us Starts -->
+  <section id="Services" class="content-section text-center">
     <div class="container">
-        <div class="row">
-            <img src="http://www.itlworld.com/wp-content/uploads/2019/05/1619_ITL-Korea-Seoul-Products-Banner.jpg" class="img-fluid">
-            <div class="col-md-9" style="margin: 30px 0px 30px 0px;"></div>
-        </div><!---close row--->
-        <div class="row">
-            <div class="col-1"></div>
-            <div class="col-md-10">
-                <h2>About Project</h1>
-                    <p> โปรเจค Jumping Ball</p>
-                <h2>Project Description</h1>
-                    <p> โครงงานนี้เราทำเกี่ยวกับ Microcontroller โดยจัดทำเป็นเกมส์ที่ใช้ไมโครคอนโทรลเลอร์ (Micro-controller)
-                        ในการทำ และใช้ตัว LED Dot Matrix เป็นตัวแสดงผลออกมาพัฒนามาจากเกมส์ Cookie Run และนำมาผสมผสานความคิดสร้างสรรค์ของผู้จัดทำ
-                        โดยตัวเกมส์จะแสดงผลออกมาเป็นไฟ LED ของ LED Dot Matrix มีปุ่มคอนโทรลให้เดินหน้า ถอยหลัง กระโดด จะมีสิ่งกีดขวางที่ผู้เล่นจะต้องหลบหลีก 
-                        ระหว่างทาง เพื่อให้ผู้เล่นจะได้ไม่เบื่อในการเล่นเกมส์ และเพื่อความสนุกสนานของผู้เล่นอีกด้วย</p>
-            </div><!--close col md, col sm-->
-        </div><!---close row--->
-        <div class="border-bottom mt-3" style="margin: 30px 0px 30px 0px;"></div>
-        <h2>
-        <center>Equipment useds</center>
-        </h2>
-        <div class="row">
-            <div class="col-md-3" >
-                <img src="https://konlawatit.github.io/mail-alerts/website/public/img/assets/1protobord2-sec4.jpg" width="97%" class="img-fluid rounded-circle" style="margin: 30px 0px 30px 0px;">
-                <center>
-                    <h4>Protoboard Breadboard 400 holes </h4>
-                </center>
-            </div><!--close md 4-->
-            <div class="col-md-3">
-                <center>
-                <img src="https://konlawatit.github.io/mail-alerts/website/public/img/assets/3NodeMCU2-sec4.png" width="97%" class="img-fluid rounded-circle" style="margin: 30px 0px 30px 0px;">
-                <h4>NodeMCU V2 LUA based ESP8266-12E</h4>
-                </center>
-            </div><!---close md 4-->
-            <div class="col-md-3">
-                <img src="https://konlawatit.github.io/mail-alerts/website/public/img/assets/2jumper-sec4.jpg" width="97%" class="img-fluid rounded-circle" style="margin: 30px 0px 30px 0px;">
-                <center>
-                    <h4>สายไฟจัมเปอร์ 20cm ผู้-เมีย</h4>
-                </center>
-            </div><!--close md 4-->
-            <div class="col-md-3">
-                <img src="https://cq.lnwfile.com/xnjd98.jpg" width="97%" class="img-fluid rounded-circle" style="margin: 30px 0px 30px 0px;">
-                <center>
-                    <h4>LED Dot matrix</h4>
-                </center>
-            </div><!--close md 4-->
-        </div><!--close row-->
-        <div class="border-bottom mt-3" style="margin: 30px 0px 30px 0px;"></div>
-        <h2>
-        <center>Picture</center>
-        </h2>
-        <div class="row">
-            <div class="col-md-3" style="margin: 30px 0px 30px 0px;">
-                <center>
-                <img src="https://www.touropia.com/gfx/d/tourist-attractions-in-south-korea/boseong_tea_fields.jpg?v=0dded008dd7153b7c09debe1974de64f" class="img-fluid">
-                </center>
+      <div class="block-heading">
+        <h2>What We Offer</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
+      <div class="row">
+        <div class="col-md-3 col-sm-6">
+          <div class="service-box">
+            <div class="service-icon yellow">
+              <div class="front-content">
+                <i class="fa fa-globe" aria-hidden="true"></i>
+                <h3>Family Travel</h3>
+              </div>
             </div>
-            <div class="col-md-3" style="margin: 30px 0px 30px 0px;">
-                <center>
-                <img src="https://www.touropia.com/gfx/d/best-places-to-visit-in-july/boryeong.jpg?v=c2e249661d8fbddc1d8d125591a647c4" class="img-fluid">
-                </center>
+            <div class="service-content">
+              <h3>Family Travel</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
             </div>
-            <div class="col-md-3" style="margin: 30px 0px 30px 0px;">
-                <center>
-                <img src="https://www.touropia.com/gfx/d/tourist-attractions-in-south-korea/gamcheon_culture_village.jpg?v=1" class="img-fluid">
-                </center>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="service-box">
+            <div class="service-icon orange">
+              <div class="front-content">
+                <i class="fa fa-suitcase"></i>
+                <h3>Business Travel</h3>
+              </div>
             </div>
-            <div class="col-md-3" style="margin: 30px 0px 30px 0px;">
-                <center>
-                    <img src="https://www.touropia.com/gfx/d/tourist-attractions-in-south-korea/jeonju_hanok_village.jpg?v=74c30ccb406a78504ca431ddc150011e" class="img-fluid"
-                </center>
+            <div class="service-content">
+              <h3>Business Travel</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
             </div>
-            <div class="col-md-3" style="margin: 0px 0px 30px 0px;">
-                <center>
-                <img src="https://www.touropia.com/gfx/d/mysterious-tidal-islands/jindo_and_modo.jpg?v=1" class="img-fluid">
-                </center>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="service-box ">
+            <div class="service-icon red">
+              <div class="front-content">
+                <i class="fa fa-male" aria-hidden="true"></i>
+                <h3>Solo Travel</h3>
+              </div>
             </div>
-            <div class="col-md-3" style="margin: 0px 0px 30px 0px;">
-                <center>
-                <img src="https://www.touropia.com/gfx/d/best-places-to-visit-in-south-korea/seoraksan_national_park.jpg?v=1" class="img-fluid">
-                </center>
+            <div class="service-content">
+              <h3>Solo Travel</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
             </div>
-            <div class="col-md-3" style="margin: 0px 0px 30px 0px;">
-                <center>
-                <img src="https://www.touropia.com/gfx/d/tourist-attractions-in-south-korea/pocheon_art_valley.jpg?v=15e58cdfcbcf1c83ec250ff16797cb64" class="img-fluid">
-                </center>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="service-box">
+            <div class="service-icon grey">
+              <div class="front-content">
+                <i class="fa fa-users"></i>
+                <h3>Camping</h3>
+              </div>
             </div>
-            <div class="col-md-3" style="margin: 0px 0px 30px 0px;">
-                <center>
-                <img src="https://www.touropia.com/gfx/d/tourist-attractions-in-south-korea/ganghwado_island.jpg?v=1" class="img-fluid">
-                </center>
-            </div>            
-        </div><!--close row-->
-    </div><!---close container-->
+            <div class="service-content">
+              <h3>Camping</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="content-section text-center" id="Portfolio">
+    <div class="container">
+      <div class="block-heading">
+        <h2>Picture</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
+      <div class="portfolio-wrapper clearfix">
+        <a class="each-portfolio" data-fancybox="gallery" href="https://ct.yimg.com/xd/api/res/1.2/w3Wu9voMSi9yWVONaR3URg--/YXBwaWQ9eXR3YXVjdGlvbnNlcnZpY2U7aD0zODY7cT04NTtyb3RhdGU9YXV0bzt3PTQxMA--/https://s.yimg.com/ob/image/e5b1f049-1469-43d6-99db-6f7771557d6a.jpg">
+          <div class="content hover-cont-wrap">
+            <div class="content-overlay"></div>
+            <img class="content-image" src="https://ct.yimg.com/xd/api/res/1.2/w3Wu9voMSi9yWVONaR3URg--/YXBwaWQ9eXR3YXVjdGlvbnNlcnZpY2U7aD0zODY7cT04NTtyb3RhdGU9YXV0bzt3PTQxMA--/https://s.yimg.com/ob/image/e5b1f049-1469-43d6-99db-6f7771557d6a.jpg">
+            <div class="content-details fadeIn-bottom">
+              <h5 class="p-title">Protoboard Breadboard 400 holes</h5>
+              <p class="p-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <span class="zoom"><i class="fa fa-search-plus"></i></span>
+            </div>
+          </div>
+        </a>
+        <a class="each-portfolio" data-fancybox="gallery" href="https://ae01.alicdn.com/kf/HTB1lOg7RFXXXXaSXXXXq6xXFXXXQ/ESP-12E-CP2102-NodeMcu-Lua-V2-Wireless-Module-Wifi-Internet-of-Things-IOT-Development-Board-Based.jpg">
+          <div class="content hover-cont-wrap">
+            <div class="content-overlay"></div>
+            <img class="content-image" src="https://ae01.alicdn.com/kf/HTB1lOg7RFXXXXaSXXXXq6xXFXXXQ/ESP-12E-CP2102-NodeMcu-Lua-V2-Wireless-Module-Wifi-Internet-of-Things-IOT-Development-Board-Based.jpg">
+            <div class="content-details fadeIn-bottom">
+              <h5 class="p-title">NodeMCU V2 LUA based ESP8266-12E</h5>
+              <p class="p-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <span class="zoom"><i class="fa fa-search-plus"></i></span>
+            </div>
+          </div>
+        </a>
+        <a class="each-portfolio" data-fancybox="gallery" href="https://commandronestore.com/products/products_img/BB501.png">
+          <div class="content hover-cont-wrap">
+            <div class="content-overlay"></div>
+            <img class="content-image" src="https://commandronestore.com/products/products_img/BB501.png">
+            <div class="content-details fadeIn-bottom">
+              <h5 class="p-title">สายไฟจัมเปอร์ 20cm ผู้-เมีย</h5>
+              <p class="p-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <span class="zoom"><i class="fa fa-search-plus"></i></span>
+            </div>
+          </div>
+        </a>
+        <a class="each-portfolio" data-fancybox="gallery" href="https://cq.lnwfile.com/xnjd98.jpg">
+          <div class="content hover-cont-wrap">
+            <div class="content-overlay"></div>
+            <img class="content-image" src="https://cq.lnwfile.com/xnjd98.jpg">
+            <div class="content-details fadeIn-bottom">
+              <h5 class="p-title">LED Dot Matrix</h5>
+              <p class="p-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <span class="zoom"><i class="fa fa-search-plus"></i></span>
+            </div>
+          </div>
+        </a>
+        <a class="each-portfolio" data-fancybox="gallery" href="https://cq.lnwfile.com/xnjd98.jpg">
+          <div class="content hover-cont-wrap">
+            <div class="content-overlay"></div>
+            <img class="content-image" src="https://cq.lnwfile.com/xnjd98.jpg">
+            <div class="content-details fadeIn-bottom">
+              <h5 class="p-title">LED Dot Matrix</h5>
+              <p class="p-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <span class="zoom"><i class="fa fa-search-plus"></i></span>
+            </div>
+          </div>
+        </a>
+        <a class="each-portfolio" data-fancybox="gallery" href="images/p-three.jpeg">
+          <div class="content hover-cont-wrap">
+            <div class="content-overlay"></div>
+            <img class="content-image" src="images/p-three.jpeg">
+            <div class="content-details fadeIn-bottom">
+              <h5 class="p-title">Title</h5>
+              <p class="p-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <span class="zoom"><i class="fa fa-search-plus"></i></span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- TESTIMONIALS -->
+  <section id="team" class="parallax-section">
+    <div class="container">
+         <div class="row">
+
+              <div class="col-md-offset-2 col-md-8 col-sm-12">
+                   <!-- SECTION TITLE -->
+                   <div class="section-title">
+                        <h1>Meet Our People</h1>
+                   </div>
+              </div>
+
+              <div class="clearfix"></div>
+
+              <div id="owl-team" class="owl-carousel">
+                   <div class="col-md-4 col-sm-4 item">
+                        <div class="team-item">
+                             <img src="https://f.ptcdn.info/624/066/000/q02rdjtb2sK8VwB5ucg-o.jpg" class="img-responsive" alt="">
+                             <div class="team-overlay">
+                                  <ul class="social-icon">
+                                       <li><a href="#" class="fa fa-twitter"></a></li>
+                                       <li><a href="#" class="fa fa-linkedin"></a></li>
+                                  </ul>
+                             </div>
+                        </div>
+                        <p>Catherine Jann</p>
+                        <h3>Head Designer</h3>
+                   </div>
+
+                   <div class="col-md-4 col-sm-4 item">
+                        <div class="team-item">
+                             <img src="images/team-image2.jpg" class="img-responsive" alt="">
+                             <div class="team-overlay">
+                                  <ul class="social-icon">
+                                       <li><a href="#" class="fa fa-instagram"></a></li>
+                                       <li><a href="#" class="fa fa-github"></a></li>
+                                       <li><a href="#" class="fa fa-facebook"></a></li>
+                                  </ul>
+                             </div>
+                        </div>
+                        <p>Luke Wara</p>
+                        <h3>Speciality Focus</h3>
+                   </div>
+
+                   <div class="col-md-4 col-sm-4 item">
+                        <div class="team-item">
+                             <img src="images/team-image3.jpg" class="img-responsive" alt="">
+                             <div class="team-overlay">
+                                  <ul class="social-icon">
+                                       <li><a href="#" class="fa fa-instagram"></a></li>
+                                       <li><a href="#" class="fa fa-dribbble"></a></li>
+                                       <li><a href="#" class="fa fa-behance"></a></li>
+                                  </ul>
+                             </div>
+                        </div>
+                        <p>Mono Mana</p>
+                        <h3>Art director</h3>
+                   </div>
+
+                   <div class="col-md-4 col-sm-4 item">
+                        <div class="team-item">
+                             <img src="images/team-image4.jpg" class="img-responsive" alt="">
+                             <div class="team-overlay">
+                                  <ul class="social-icon">
+                                       <li><a href="#" class="fa fa-twitter"></a></li>
+                                       <li><a href="#" class="fa fa-facebook"></a></li>
+                                       <li><a href="#" class="fa fa-envelope-o"></a></li>
+                                  </ul>
+                             </div>
+                        </div>
+                        <p>Phway Phyu</p>
+                        <h3>Designer in Chief</h3>
+                   </div>
+
+                   <div class="col-md-4 col-sm-4 item">
+                        <div class="team-item">
+                             <img src="images/team-image1.jpg" class="img-responsive" alt="">
+                             <div class="team-overlay">
+                                  <ul class="social-icon">
+                                       <li><a href="#" class="fa fa-twitter"></a></li>
+                                       <li><a href="#" class="fa fa-linkedin"></a></li>
+                                  </ul>
+                             </div>
+                        </div>
+                        <p>Cherry Lynn</p>
+                        <h3>Marketing Manager</h3>
+                   </div>
+              </div>
+
+         </div>
+    </div>
+</section>
+  <!-- END OF TESTIMONIALS -->
+
+  
 </body>
+
 </html>
